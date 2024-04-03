@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/Basic_js_text.js"></script>
+    <script src="/js/pop_up.js"></script>
+
     <style>
         table {
             font-size: 20pt;
@@ -14,7 +16,7 @@
         }
     </style>
 </head>
-<body style="background-color: black;">
+<body style="background-color: black;" onload="pop_up();">
     <!-- 네비게이션바 (부트스트랩X)
     <div style="display: flex; justify-content: center;">
         <img src="image/LOGO.svg" width="200" height="60">
@@ -40,7 +42,7 @@
         -->
           
           <a class="navbar-brand" href="#">
-            <img src="image/LOGO.svg" width="150" height="50">
+            <img src="image/LOGO.svg" onmouseover="over(this)" onmouseout="out(this)"  width="150" height="50">
           </a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,8 +77,8 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex" role="search" onsubmit="return googleSearch();">
+              <input class="form-control me-2" id="search_input" name="q" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" id="search_button_msg" type="submit">Search</button>
             </form>
           </div>
@@ -175,5 +177,5 @@
         </h3>
     </div>
 </body>
-<script src="js/search.js"></script>
+<script src="js/search.js" defer></script>
 </html>
