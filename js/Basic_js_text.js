@@ -18,3 +18,14 @@ const e = '상수1 접근';
 //e = 5;
 //const f       //error
 console.log(e);
+
+
+
+const over = (obj) => {
+    obj.src = "image/LOGO.svg";
+};
+
+const search_message = () => {
+    const c = '검색을 수행합니다.'
+    alert(c);
+};

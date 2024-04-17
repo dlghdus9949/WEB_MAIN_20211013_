@@ -38,3 +38,4 @@ function over(obj){
 function out(obj){
     obj.src="image/LOGO_2.png";
 }
+

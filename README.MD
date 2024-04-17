@@ -7,3 +7,5 @@ This project is a starting point for a Web application.
 ## 3주차 수업 부스트스트랩 적용 완료! (문제 포함)
 ## 4주차 수업 JS기능 추가 완료! (문제 포함)
 ## 5주차 팝업창 기능 추가 완료! (문제 포함)
+## 6주차 휴강
+## 7주차 로그인 기능 추가 완료! (문제 포함)
