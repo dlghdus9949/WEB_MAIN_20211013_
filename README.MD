@@ -9,3 +9,4 @@ This project is a starting point for a Web application.
 ## 5주차 팝업창 기능 추가 완료! (문제 포함)
 ## 6주차 휴강
 ## 7주차 로그인 기능 추가 완료! (문제 포함)
+## 8주차 로그인 폼 길이 제한과 특수문자, XXS 방지 완료! (문제 포함)
