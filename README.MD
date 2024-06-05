@@ -11,3 +11,4 @@ This project is a starting point for a Web application.
 ## 7주차 로그인 기능 추가 완료! (문제 포함)
 ## 8주차 로그인 폼 길이 제한과 특수문자, XXS 방지 완료! (문제 포함)
 ## 12주차 쿠키/세션 삭제 완료! (문제 포함)
+## 13,14주차 회원가입 화면 완료!
